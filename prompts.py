@@ -14,15 +14,6 @@ class MultilineText:
             },
         }
 
-    def get_clean_text(self, text):
-        cleaned = ''
-
-        for line in text.split('\n'):
-            line = line.split('#', 1)[0]
-            cleaned += line
-
-        return [cleaned]
-
     def get_text_verbatim(self, text):
         return [text]
 
