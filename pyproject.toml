@@ -1,0 +1,14 @@
+[project]
+name = "comfyui-simply-nodes"
+description = "Nodes:Conditional LoRA Loader, Multiline Text, Text Flow Controller, Select SDXL Resolution, Random Style Prompt."
+version = "1.0.0"
+license = "LICENSE"
+
+[project.urls]
+Repository = "https://github.com/Wicloz/ComfyUI-Simply-Nodes"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI-Simply-Nodes"
+Icon = ""
