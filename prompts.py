@@ -71,7 +71,7 @@ class RandomStyle:
             'required': {
                 'style_def_file': [[str(path) for path in Path('models/styles/').glob('*.txt')]],
                 'seed': ['INT', {'default': 0, 'min': 0, 'max': 0xffffffffffffffff}],
-                'strength': ['FLOAT', {'default': 0.1, 'min': 0.0, 'max': 1.0}],
+                'strength': ['FLOAT', {'default': 0.1, 'min': 0.0, 'max': 1.0, 'step': 0.01}],
                 'override': ['STRING', {'default': '', 'multiline': True}],
             },
         }
