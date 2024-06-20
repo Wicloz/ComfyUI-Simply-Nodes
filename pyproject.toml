@@ -1,14 +1,13 @@
 [project]
 name = "comfyui-simply-nodes"
 description = "Simple nodes to help clean up your workflow, mostly focussed on text operations."
-version = "1.0.0"
-license = "LICENSE"
+version = "1.0.1"
 
 [project.urls]
 Repository = "https://github.com/Wicloz/ComfyUI-Simply-Nodes"
 
-# Used by Comfy Registry https://comfyregistry.org
 [tool.comfy]
+# Used by Comfy Registry https://registry.comfy.org/
 PublisherId = "wicloz"
-DisplayName = "ComfyUI-Simply-Nodes"
+DisplayName = "ComfyUI Simply Nodes"
 Icon = ""
