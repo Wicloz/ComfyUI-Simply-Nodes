@@ -10,7 +10,7 @@ class ResolutionSDXL:
     def INPUT_TYPES(cls):
         return {
             'required': {
-                'resolution': [['1080x1080', '720x1280', '1280x720', '600x1920']],
+                'resolution': [['1080x1080', '720x1280', '1280x720', '600x1800']],
                 'multiplier': ['FLOAT', {'default': 1}],
             },
         }
