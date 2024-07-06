@@ -5,7 +5,7 @@ import numpy.random as npr
 
 class MultilineText:
     RETURN_TYPES = ['STRING']
-    FUNCTION = 'get_text_verbatim'
+    FUNCTION = 'get_text_without_comments'
     CATEGORY = 'prompt'
 
     @classmethod
@@ -16,8 +16,8 @@ class MultilineText:
             },
         }
 
-    def get_text_verbatim(self, text):
-        return [text]
+    def get_text_without_comments(self, text):
+        return [re.sub(r'#.*', '', text)]
 
 
 class TextFlow:
