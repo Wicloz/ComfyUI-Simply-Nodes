@@ -1,7 +1,7 @@
 [project]
 name = "comfyui-simply-nodes"
 description = "Simple nodes to help clean up your workflow, mostly focussed on text operations."
-version = "1.0.1"
+version = "1.1.0"
 
 [project.urls]
 Repository = "https://github.com/Wicloz/ComfyUI-Simply-Nodes"
